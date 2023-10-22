@@ -1,0 +1,61 @@
+
+/* Set the page's background color: red */
+body {
+    background-color: red;
+  }
+  
+  /* Change the text color of all <p> elements =red */
+  p {
+    color: red;
+  }
+  
+  /* Align all elements = right */
+  .parent,.child {
+    text-align: right;
+  }
+  
+  /* Style text in parent class = uppercase letters */
+  .parent {
+    text-transform: uppercase;
+  }
+  
+  /* Style text in <p> = capitalized letters */
+  p {
+    text-transform: capitalize;
+  }
+  
+  /* Indent the first line of the <p> element= 20px */
+  p {
+    text-indent: 20px;
+  }
+  
+  /* Set the font for <p> = "Verdana" and size 50px */
+  p {
+    font-family: Verdana;
+    font-size: 50px;
+  }
+  
+  /* Set a "2px" horizontal, and "2px" vertical, "green" text shadow for the class title element = "5px" blur radius */
+  .title {
+    text-shadow: 2px 2px 5px green;
+  }
+  
+  /* Color the word "Title" = red */
+  .title {
+    color: red;
+  }
+  
+  /* Color the sentence "Child Title"= blue */
+  .child .title {
+    color: blue;
+  }
+  
+  /* Color the sentence "Paragraph Content" = green */
+  p {
+    color: green;
+  }
+  
+  /* Color the sentence "Section Title" = green */
+  .title {
+    color: green;
+  }
